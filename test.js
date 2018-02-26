@@ -14,22 +14,22 @@ describe('Zeros', () => {
   });
 
   it('3', () => {
-    const zerosCount = getZerosCount(82557730, 84);
+    const zerosCount = getZerosCount(82557730, 84);//1.5
     assert.equal(zerosCount, 13759618);
   });
 
   it('4', () => {
-    const zerosCount = getZerosCount(14423541, 193);
+    const zerosCount = getZerosCount(14423541, 193);//48
     assert.equal(zerosCount, 75122);
   });
 
   it('5', () => {
-    const zerosCount = getZerosCount(71398757, 12);
+    const zerosCount = getZerosCount(71398757, 12);//0.5
     assert.equal(zerosCount, 35699370);
   });
 
   it('6', () => {
-    const zerosCount = getZerosCount(98707942, 218);
+    const zerosCount = getZerosCount(98707942, 218);//27
     assert.equal(zerosCount, 913961);
   });
 
